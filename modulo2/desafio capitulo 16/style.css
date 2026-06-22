@@ -1,0 +1,108 @@
+@charset 'UTF-8';
+
+*   {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+    background-color: #71d9ff;
+}
+
+header  {
+    background: linear-gradient(#0068FC, #00B9FC);
+    color: white;
+    padding: 20px;
+
+}
+
+.titulo {
+    text-align: center;
+    font-family: "Audiowide";
+    text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.326);
+}
+
+.subtitulo {
+    font-family: "Audiowide";
+    background: linear-gradient(to right, #589eff, rgba(255, 255, 255, 0));
+    padding: 5px;
+}
+
+main    {
+    margin: 16px 500px 16px 500px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+footer  {
+    text-align: center;
+    background-color: #0e3469;
+    color: white;
+}
+
+.foto {
+    height: 500px;
+    width: 880px;
+    padding-left: 3px;
+}
+
+.imagem {
+    text-align: center;
+}
+
+iframe  {
+    height: 500px;
+    width: 880px;
+}
+
+
+
+.video  {
+    text-align: center;
+    background-color: #0e3469;
+}
+
+.baixao  {
+    background-color: #6fa5f0;
+    border-radius: 10px;
+    
+    margin: 10px auto 10px auto;
+}
+
+.aprender   {
+    background-color: #0068FC;
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 0px;
+    font-family: "Audiowide";
+    
+}
+
+.baixao .conteudo   {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul  {
+    font-weight: bold;
+    list-style: none;
+    gap: 30px;
+    display: flex;
+}
+
+ul:hover    {
+    text-decoration: underline;
+}
+
+.link    {
+    text-decoration: none;
+    color: #0068FC;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

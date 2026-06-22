@@ -1,0 +1,19 @@
+body    {
+    font-family: sans-serif;
+}
+
+div:hover   {
+    color: red;
+    width: 200px;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p   {
+    display: block;
+    color: white;
+    background-color: red;
+    width: 200px;
+}
