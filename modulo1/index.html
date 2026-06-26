@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 1 | Exercícios</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #07111f;
+      color: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0f172a, #111827);
+      color: #e2e8f0;
+      padding: 32px 16px;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      background: rgba(15, 23, 42, 0.92);
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+    }
+    h1 { font-size: 2rem; margin-bottom: 12px; }
+    p { color: #cbd5e1; line-height: 1.7; margin-bottom: 24px; }
+    .back { display: inline-block; margin-bottom: 24px; color: #7dd3fc; text-decoration: none; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 16px;
+      text-decoration: none;
+      color: #f8fafc;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    .card:hover { transform: translateY(-2px); background: rgba(255,255,255,0.08); }
+    .card h2 { font-size: 1rem; margin-bottom: 8px; }
+    .card span { color: #94a3b8; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <a class="back" href="../index.html">← Voltar ao início</a>
+    <h1>Módulo 1</h1>
+    <p>Escolha um exercício para abrir diretamente a página correspondente.</p>
+
+    <section class="grid">
+      <a class="card" href="ex001/index.html"><h2>Exercício 001</h2><span>Estrutura básica em HTML</span></a>
+      <a class="card" href="ex002/index.html"><h2>Exercício 002</h2><span>Formatação e listas</span></a>
+      <a class="card" href="ex003/index.html"><h2>Exercício 003</h2><span>Imagens e navegação</span></a>
+      <a class="card" href="ex004/index.html"><h2>Exercício 004</h2><span>Links e recursos</span></a>
+      <a class="card" href="ex005/index.html"><h2>Exercício 005</h2><span>Mídias e conteúdo multimídia</span></a>
+      <a class="card" href="ex006/index.html"><h2>Exercício 006</h2><span>Estrutura e layout</span></a>
+      <a class="card" href="ex007/index.html"><h2>Exercício 007</h2><span>Estilos e páginas</span></a>
+      <a class="card" href="ex009/index.html"><h2>Exercício 009</h2><span>Páginas adicionais</span></a>
+      <a class="card" href="exx008/index.html"><h2>Exercício 008</h2><span>Versão extra do conteúdo</span></a>
+      <a class="card" href="QuemSouEu/index.html"><h2>Quem Sou Eu</h2><span>Projeto pessoal</span></a>
+      <a class="card" href="Site/index.html"><h2>Site</h2><span>Exemplo de site institucional</span></a>
+    </section>
+  </main>
+</body>
+</html>
