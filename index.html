@@ -5,124 +5,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Início | Site Institucional</title>
   <style>
-    :root {
-      color-scheme: light;
-      font-family: "Inter", sans-serif;
-      background: #081421;
-      color: #eef2ff;
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+    *   {
+        font-family: Arial, Helvetica, sans-serif;
     }
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
+
+    body    {
+        background-color: #13102e;
+        margin: 0px;
     }
-    body {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: radial-gradient(circle at top left, #5b8cff 0%, transparent 35%),
-                  radial-gradient(circle at bottom right, #22c1c3 0%, transparent 30%),
-                  linear-gradient(180deg, #0a1122 0%, #081421 100%);
+
+
+    main    {
+        background-image: linear-gradient(to left, #271e58, #363966);
+        margin: 0px;
     }
-    .container {
-      width: min(1120px, calc(100% - 32px));
-      padding: 48px;
-      border-radius: 28px;
-      background: rgba(15, 23, 42, 0.92);
-      box-shadow: 0 40px 120px rgba(0, 0, 0, 0.25);
-      backdrop-filter: blur(12px);
+
+    h1  {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3em;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 0px 5px white;
     }
-    header {
-      margin-bottom: 32px;
+
+    main p  {
+        text-align: center;
+        color: white;
     }
-    .tagline {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 18px;
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 999px;
-      font-size: 0.94rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #a5b4fc;
-      margin-bottom: 20px;
+
+    ul  {
+        background-image: linear-gradient(to right, #232449, #0f0f0f);
+        padding: 20px;
+        box-shadow: 0px 0px 10px #0f0f0f;
     }
-    h1 {
-      font-size: clamp(2.4rem, 4.5vw, 4.2rem);
-      line-height: 1.03;
-      letter-spacing: -0.04em;
-      margin-bottom: 18px;
+
+    ul  {
+        list-style-type: none;
+        columns: 2;
     }
-    p {
-      max-width: 760px;
-      font-size: 1.08rem;
-      line-height: 1.9;
-      color: #cbd5e1;
-      margin-bottom: 36px;
+
+
+    li  {
+        background-image: linear-gradient(to right, #504c81, #362058);
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
     }
-    .buttons {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 16px;
+
+
+    li:hover    {
+        text-shadow: 0px 0px 5px white;
+        background-image: linear-gradient(to right, #333055, #180a2c);
+        transition-duration: 0.1s;
     }
-    .buttons a {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 56px;
-      padding: 0 22px;
-      border-radius: 16px;
-      background: linear-gradient(135deg, #3b82f6 0%, #22c1c3 100%);
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 600;
-      transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
-      box-shadow: 0 16px 40px rgba(34, 193, 195, 0.22);
+
+
+    a   {
+        color: white;
+        text-decoration: none;
     }
-    .buttons a:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 22px 45px rgba(34, 193, 195, 0.28);
-      filter: saturate(1.1);
-    }
-    footer {
-      margin-top: 44px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 16px;
-      color: #94a3b8;
-      font-size: 0.95rem;
-    }
-    footer span {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .accent {
-      color: #7dd3fc;
-    }
+
+
+
+
+    
   </style>
 </head>
 <body>
   <section class="container">
     <header>
-      <div class="tagline">Site Institucional</div>
-      <h1>Bem-vindo ao portal do seu projeto</h1>
-      <p>Escolha um módulo para navegar e acompanhar o conteúdo de cada arquivo HTML do seu projeto.</p>
+      <h1>Curso HTML5 e CSS3</h1>
     </header>
 
-    <div class="buttons">
-      <a href="modulo1/index.html">Módulo 1</a>
-      <a href="modulo2/index.html">Módulo 2</a>
-    </div>
+      <ul>
+          <li>
+            <a href="modulo1/index.html">Módulo 1</a>
+        </li>
+          <li>
+            <a href="modulo2/index.html">Módulo 2</a>
+        </li>
+      </ul>
 
-    <footer>
-      <span>Pronto para explorar seu conteúdo.</span>
-      <span class="accent">Navegue pelos módulos e personalize conforme necessário.</span>
-    </footer>
   </section>
 </body>
 </html>
