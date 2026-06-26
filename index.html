@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Início | Site Institucional</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Inter", sans-serif;
+      background: #081421;
+      color: #eef2ff;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at top left, #5b8cff 0%, transparent 35%),
+                  radial-gradient(circle at bottom right, #22c1c3 0%, transparent 30%),
+                  linear-gradient(180deg, #0a1122 0%, #081421 100%);
+    }
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      padding: 48px;
+      border-radius: 28px;
+      background: rgba(15, 23, 42, 0.92);
+      box-shadow: 0 40px 120px rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(12px);
+    }
+    header {
+      margin-bottom: 32px;
+    }
+    .tagline {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 18px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 999px;
+      font-size: 0.94rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #a5b4fc;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: clamp(2.4rem, 4.5vw, 4.2rem);
+      line-height: 1.03;
+      letter-spacing: -0.04em;
+      margin-bottom: 18px;
+    }
+    p {
+      max-width: 760px;
+      font-size: 1.08rem;
+      line-height: 1.9;
+      color: #cbd5e1;
+      margin-bottom: 36px;
+    }
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+    }
+    .buttons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 56px;
+      padding: 0 22px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #3b82f6 0%, #22c1c3 100%);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+      box-shadow: 0 16px 40px rgba(34, 193, 195, 0.22);
+    }
+    .buttons a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 22px 45px rgba(34, 193, 195, 0.28);
+      filter: saturate(1.1);
+    }
+    footer {
+      margin-top: 44px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      color: #94a3b8;
+      font-size: 0.95rem;
+    }
+    footer span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .accent {
+      color: #7dd3fc;
+    }
+  </style>
+</head>
+<body>
+  <section class="container">
+    <header>
+      <div class="tagline">Site Institucional</div>
+      <h1>Bem-vindo ao portal do seu projeto</h1>
+      <p>Escolha um módulo para navegar e acompanhar o conteúdo de cada arquivo HTML do seu projeto.</p>
+    </header>
+
+    <div class="buttons">
+      <a href="modulo1.html">Módulo 1</a>
+      <a href="modulo2.html">Módulo 2</a>
+      <a href="modulo3.html">Módulo 3</a>
+      <a href="modulo4.html">Módulo 4</a>
+      <a href="modulo5.html">Módulo 5</a>
+    </div>
+
+    <footer>
+      <span>Pronto para explorar seu conteúdo.</span>
+      <span class="accent">Navegue pelos módulos e personalize conforme necessário.</span>
+    </footer>
+  </section>
+</body>
+</html>
